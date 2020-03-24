@@ -260,6 +260,7 @@ void cmd(int ch, char *argv[])
 void main(int argc, char *argv[])
 {
     setlocale(0, "RUS");
+    cout << "Something" << endl;
     if (argc == 1)
     {
         while (true)
